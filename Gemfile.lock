@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/bmabey/database_cleaner.git
-  revision: e11d9f036e2390b1277f8c0c79312cc7ae79bce2
+  revision: dd7c12ca0bee753e285a55c5399ac577a284ea12
   specs:
     database_cleaner (1.1.1)
 
