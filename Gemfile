@@ -6,6 +6,10 @@ gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.0.1'
 
+group :development do
+  gem 'win32console', '1.3.2'
+  gem 'factory_girl_rails', '4.2.1'
+end
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
@@ -19,8 +23,6 @@ group :test do
   gem 'selenium-webdriver', '2.0.0'
   gem 'capybara', '2.1.0'
   gem 'rb-notifu', '0.0.4'
-  gem 'win32console', '1.3.2'
-  gem 'factory_girl_rails', '4.2.1'
   gem 'cucumber-rails', '1.3.0', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
