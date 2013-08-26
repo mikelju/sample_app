@@ -8,14 +8,11 @@ gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
-<<<<<<< HEAD
 
 group :development do
   gem 'win32console', '1.3.2'
   gem 'factory_girl_rails', '4.2.1'
 end
-=======
->>>>>>> updating-users
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
@@ -24,17 +21,11 @@ group :development, :test do
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.3.6'
   gem 'rb-notifu', '0.0.4'
-  gem 'win32console', '1.3.2'
 end
 
 group :test do
   gem 'selenium-webdriver', '2.0.0'
   gem 'capybara', '2.1.0'
-<<<<<<< HEAD
-  gem 'rb-notifu', '0.0.4'
-=======
-  gem 'factory_girl_rails', '4.2.1'
->>>>>>> updating-users
   gem 'cucumber-rails', '1.3.0', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
